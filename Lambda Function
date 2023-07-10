@@ -1,4 +1,4 @@
-// Java program to demonstrate working of lambda expressions
+
 public class Test {
 	// operation is implemented using lambda expressions
 	interface FuncInter1 {
@@ -6,7 +6,7 @@ public class Test {
 	}
 
 	// sayMessage() is implemented using lambda expressions
-	// above
+	
 	interface FuncInter2 {
 		void sayMessage(String message);
 	}
