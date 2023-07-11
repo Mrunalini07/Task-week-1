@@ -1,1 +1,48 @@
+import java.util.*;
+public class Sample {
+public static void main(String[] args) {
+ArrayList<String> aLst=new ArrayList<String>();
+aLst.add("Your first array list value is January");
+aLst.add("Your second array list value is February");
+aLst.add("Your third array list value is March");
+aLst.add("Your four array list value is April");
+aLst.add("Your fifth array list value is May");
+Iterator itr=aLst.iterator();
+while(itr.hasNext()){
+System.out.println(itr.next());
+}
+collec collec = new HashSet();
+collec.add("Your sixth array list value is June");
+collec.add("Your seventh array list value is July");
+collec.add("Your eigth array list value is August");
+collec.add("Your ninth array list value is September");
+collec.add("Your tenth array list value is October");
+collec.add("Your eleventh array list value is November");
+collec.add("Your twelth array list value is December");
+for(obj obj : collec) {
+System.out.println(obj);
+}
+LinkedList<String> linklst=new LinkedList<String>();
+linklst.add("Welcome To The RK Group of Constructions");
+linklst.add("Welcome To The KR Group of Constructions      ");
+linklst.add("Welcome To The SV Group of Constructions,BSCPL Infrastructure");
+linklst.add("Welcome To The VS Group of Constructions, Ozone Group Bangalore");
+linklst.add("Welcome To The VSR Group of Constructions, BSCPL Infrastructure");
+linklst.add("Welcome To The Royal Knit Group of Constructions, Shriram Properties");
+linklst.add("Welcome To The Mithun Constructions, Pacifica Companies");
+linklst.add("Welcome To The JK Group of Constructions, DRA Group");
+Iterator<String> itr1=linklst.iterator();
+while(itr1.hasNext()){
+System.out.println(itr1.next());
+}
+Vector<String> v=new Vector<String>();
+v.add("Welcome To The Vijay Shanthi Builders, Prestige Group,Olymia Group, Godrej Properties,Brigade Group");
+v.add("Welcome To The Kay Arr and Co Rio Grande, Tata value Homes, Brigade Group, Akshaya Homes");
+v.add("Welcome To The JB, Eternia, ITC Grand Chola, DEEJOS Architects, Bharath Engineering Construction company,Jehovah Nissi Archfirm");
+Iterator<String> itr2=v.iterator();
+while(itr2.hasNext()){
+System.out.println(itr2.next());
+}
+}
+}
 
